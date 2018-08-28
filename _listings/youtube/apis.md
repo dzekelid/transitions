@@ -7,11 +7,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-yout
 x-kinRank: "9"
 x-alexaRank: "2"
 tags: Transitions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/transitions/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
+- name: YouTube - Add Live Broadcasts Transition
+  x-api-slug: livebroadcaststransition-post
+  description: Changes the status of a YouTube live broadcast and initiates any processes
+    associated with the new status. For example, when you transition a broadcast's
+    status to testing, YouTube starts to transmit video to that broadcast's monitor
+    stream. Before calling this method, you should confirm that the value of the status.streamStatus
+    property for the stream bound to your broadcast is active.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transitions/master/_listings/youtube/livebroadcaststransition-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transitions/master/_listings/youtube/livebroadcaststransition-post-openapi.md
 - name: YouTube - Add Live Broadcasts Transition
   x-api-slug: livebroadcaststransition-post
   description: Changes the status of a YouTube live broadcast and initiates any processes

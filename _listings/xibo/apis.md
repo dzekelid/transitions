@@ -9,11 +9,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Transitions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/transitions/master/_listings/xibo/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Xibo API - Adds In/Out transition
+  x-api-slug: playlistwidgettransitiontypewidgetid-put
+  description: Adds In/Out transition to a specified widget
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transitions/master/_listings/xibo/playlistwidgettransitiontypewidgetid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transitions/master/_listings/xibo/playlistwidgettransitiontypewidgetid-put-openapi.md
 - name: Xibo API - Adds In/Out transition
   x-api-slug: playlistwidgettransitiontypewidgetid-put
   description: Adds In/Out transition to a specified widget

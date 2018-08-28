@@ -9,11 +9,51 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Transitions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/transitions/master/_listings/shopify/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Shopify API - Transition a fulfillment from pending to open.
+  x-api-slug: adminorders4528049998fulfillments3770145678open-json-post
+  description: Transition a fulfillment from pending to open..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transitions/master/_listings/shopify/adminorders4528049998fulfillments3770145678open-json-post-openapi.md
+- name: Shopify API - Transition a fulfillment from pending to open.
+  x-api-slug: adminorders4528049998fulfillments3770145678open-json-post
+  description: Transition a fulfillment from pending to open..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transitions/master/_listings/shopify/adminorders4528049998fulfillments3770145678open-json-post-openapi.md
+- name: Shopify API - Transition a fulfillment from pending to open.
+  x-api-slug: adminorders4528049998fulfillments3770145678open-json-post
+  description: Transition a fulfillment from pending to open..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transitions/master/_listings/shopify/adminorders4528049998fulfillments3770145678open-json-post-openapi.md
+- name: Shopify API - Transition a fulfillment from pending to open.
+  x-api-slug: adminorders4528049998fulfillments3770145678open-json-post
+  description: Transition a fulfillment from pending to open..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transitions/master/_listings/shopify/adminorders4528049998fulfillments3770145678open-json-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://ship.station.api.gallery.streamdata.io
